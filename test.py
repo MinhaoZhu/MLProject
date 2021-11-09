@@ -9,7 +9,7 @@ face_cascade = cv2.CascadeClassifier("cascades/data/haarcascade_frontalface_alt2
 
 # Read the input image
 
-img = cv2.imread('imgs/happy/0-4.jpg')
+img = cv2.imread(r'test/happy_dog/3-2.jpg')
 # Convert into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Detect faces
